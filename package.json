@@ -1,0 +1,29 @@
+{
+  "name": "iconsgenerator",
+  "version": "1.0.0",
+  "description": "Nodejs application to create splash screens and icons for android and ios apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariocavada/iconsgenerator.git"
+  },
+  "keywords": [
+    "icons",
+    "generator"
+  ],
+  "author": "Dario Cavada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariocavada/iconsgenerator/issues"
+  },
+  "homepage": "https://github.com/dariocavada/iconsgenerator#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "sharp": "^0.24.1"
+  }
+}
