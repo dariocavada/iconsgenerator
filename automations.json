@@ -1,5 +1,6 @@
 {
     "background":{"r":0,"g":0,"b":0,"alpha":100},
+    "inpath":"/Users/dariocavada/WorkingDirectory/github/suggesto-gui/project/centrosantachiara/design/",
     "automations":[
         {"in":"icon.png","out":"./icons/android/drawable-hdpi-icon.png","resize":[72,72]},
         {"in":"icon.png","out":"./icons/android/drawable-ldpi-icon.png","resize":[36,36]},
@@ -43,6 +44,7 @@
         { "in": "icon.png", "out": "./icons/ios/icon-83.5@2x.png", "resize": [167,167] },
         { "in": "icon.png", "out": "./icons/ios/icon-86@2x.png", "resize": [172,172] },
         { "in": "icon.png", "out": "./icons/ios/icon-98@2x.png", "resize": [196,196] },
+        { "in": "icon.png", "out": "./icons/ios/icon-108@2x.png", "resize": [216,216] },
         { "in": "icon.png", "out": "./icons/ios/icon-1024.png", "resize": [1024,1024] },
         { "in": "icon.png", "out": "./icons/ios/icon.png", "resize": [57,57] },
         { "in": "icon.png", "out": "./icons/ios/icon@2x.png", "resize": [114,114] },
@@ -50,9 +52,9 @@
         { "in": "splash.png", "out": "./screens/ios/Default-568h@2x~iphone.png", "resize": [640, 1136] },
         { "in": "splash.png", "out": "./screens/ios/Default-667h.png", "resize": [750, 1334] },
         { "in": "splash.png", "out": "./screens/ios/Default-736h.png", "resize": [1242, 2208] },
-        { "in": "splash.png", "out": "./screens/ios/Default-2436h.png", "resize": [2732, 2732] },
+        { "in": "splash.png", "out": "./screens/ios/Default-2436h.png", "resize": [1125, 2436] },
         { "in": "splash.png", "out": "./screens/ios/Default-Landscape-736h.png", "resize": [2208, 1242] },
-        { "in": "splash.png", "out": "./screens/ios/Default-Landscape-2436h.png", "resize": [2732, 2732] },
+        { "in": "splash.png", "out": "./screens/ios/Default-Landscape-2436h.png", "resize": [2436, 1125] },
         { "in": "splash.png", "out": "./screens/ios/Default-Landscape@2x~ipad.png", "resize": [2048, 1536] },
         { "in": "splash.png", "out": "./screens/ios/Default-Landscape~ipad.png", "resize": [1024, 768] },
         { "in": "splash.png", "out": "./screens/ios/Default-Portrait@2x~ipad.png", "resize": [1536, 2048] },

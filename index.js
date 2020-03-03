@@ -19,7 +19,8 @@ function resizeOne() {
 
   fs.mkdirSync(dirName, { recursive: true });
 
-  sharp(oc.in)
+  var inPath = jsonConfig.inpath+oc.in;
+  sharp(inPath)
     .resize(oc.resize[0], oc.resize[1], {
       kernel: sharp.kernel.nearest,
       fit: 'contain',
